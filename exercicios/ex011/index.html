@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>
+        Tente abrir esse site em dispositivos diferentes ou simplesmente diminua o tamanho do seu navagador
+    </p>
+    <picture>
+        <!--as sources devem ser colocadas em ordem de tamanho-->
+        <source media="(max-width: 750px)" srcset="imgs/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/foto-m.png" type="image/png">
+        <img src="imgs/foto-g.png" alt="Imagem flexísivel">
+    </picture>
+
+    <h1>Aúdios em HTML</h1>
+    <!--MP3, WAV ou OGG-->
+    <p>
+        Reproduzir aúdios em HTML
+        <!--Simples-->
+        <audio src="midia/happy-mistake.mp3" controls></audio>
+        <!--Adpatação de formato de acordo com a compatibilidade do navegador-->
+        <audio preload="metadata" controls>
+            <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        </audio>
+    </p>
+
+    <h1>Vídeos em HTML</h1>
+    <h2>Hospedagem Local:</h2>
+    <!--MP4/MKV, WEBM ou OGV-->
+    <P>
+        <video width="400" autoplay loop controls>
+            <source src="midia/Flowers.webm" type="video/webm">
+            <source src="midia/flowers.mp4" type="video/mp4">
+        </video>
+    </P>
+
+    <h2>Hospedagem Externa:</h2>
+    <iframe width="400" height="245" src="https://www.youtube.com/embed/LW0bhKitRBk" title="CGI Animation Showreel HD &quot;Animation Show Reel&quot; by AnimationCafe Studio | CGMeetup" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
