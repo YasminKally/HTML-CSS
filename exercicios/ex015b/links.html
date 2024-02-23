@@ -19,8 +19,12 @@
             text-decoration: underline;
             font-weight: bold;
         }
+
+        li::before {
+            content: '> ';
+        }
         li::after { /*:: indica um pseudo elemento a ser adicionado no elemento*/
-            content: ' [link]';
+            content: ' <';
         }
     </style>
 </head>
