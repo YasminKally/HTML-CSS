@@ -10,53 +10,53 @@
     margin: 0
 }
 
- body {
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #84E1AD;
- }
+}
 
- header {
+header {
     background-image: linear-gradient(to bottom, #3DDA84, #1A5C38);
     color: white;
     text-align: center;
     min-height: 150px;
     padding-top: 40px;
- }
+}
 
- header > h1 {
+header > h1 {
     font-family: 'idroid';
     font-size: 3em;
     margin-bottom: 20px;
- }
+}
 
- header > p {
+header > p {
     font-size: 1.2em;
     max-width: 500px;
     margin: auto;
     padding: 10px;
- }
+}
 
- nav {
+nav {
     background-color: #1A5C38;
     text-align: left;
     padding: 10px;
- }
+}
 
- nav > a{
+nav > a {
     padding: 10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     text-decoration: none;
     color: white;
     transition-duration: 0.5s;
- }
+}
 
- nav > a:hover {
+nav > a:hover {
     background-color: rgb(114, 185, 114);
     font-weight: bold;
- }
+}
 
- main {
+main {
     background-color: white;
     max-width: 800px;
     min-width: 320px;
@@ -65,106 +65,106 @@
     border-bottom-left-radius: 10px;
     margin: auto;
     margin-bottom: 30px;
- }
+}
 
- article {
+article {
     margin: 0 10px;
- }
+}
 
- article > h1 {
+article > h1 {
     font-size: 1.8em;
     font-family: 'idroid';
     color: #1A5C38;
- }
+}
  
- article > h2{
+article > h2{
     font-family: 'idroid';
     background-image: linear-gradient(to right, #84E1AD, transparent);
     color: #1A5C38;
     text-indent: 5px;
- }
+}
 
- article > p {
+article > p {
     margin: 10px 0;
     text-indent: 2em;
     text-align: justify;
     line-height: 1.5em;
- }
+}
 
- article strong {
+article strong {
     color: #1A5C38;
     font-weight: bold;
- }
+}
 
- .link {
+.link {
     text-decoration: none;
     color: #1A5C38;
     font-weight: bold;
- }
+}
 
- .link:hover {
+.link:hover {
     text-decoration: underline;
- }
+}
 
- .link::after {
+.link::after {
     content: '🔗';
- }
+}
 
- .img {
+.img {
     display: block;
     width: 100%;
     margin: auto;
- }
+}
 
- .pequena {
+.pequena {
     display: block;
     margin: auto;
     max-width: 350px;
- }
+}
 
- .video {
+.video {
     background-color: #1A5C38;
     margin: 0px -30px 30px -30px;
     padding: 20px;
     padding-bottom: 60%;
     position: relative;
- }
+}
 
- .video > iframe {
+.video > iframe {
     position: absolute;
     top: 5%;
     left: 5%;
     height: 90%;
     width: 90%;
- }
+}
 
- aside {
+aside {
     background-color: #84E1AD;
     padding: 10px;
     border-radius: 10px;
- }
+}
 
- aside > h3 {
+aside > h3 {
     background-color: #1A5C38;
     color: white;
     margin: -10px -10px 0 -10px;
     border-radius: 10px 10px 0 0;
     padding: 10px;
- }
+}
 
 aside > p {
     margin: 10px 0;
 }
 
- aside > ul {
+aside > ul {
     list-style-position: inside;
     columns: 2;
- }
+}
 
- footer {
+footer {
     background-color: #1A5C38;
     color: white;
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
- }
+}
