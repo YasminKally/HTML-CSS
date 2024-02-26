@@ -40,12 +40,11 @@ nav {
     background-color: #1A5C38;
     text-align: left;
     padding: 10px;
-    font-size: 0.8em;
-    min-height: 1em;
+    font-size: 0.9em;
 }
 
 nav > a {
-    padding: 2px;
+    padding: 5px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     text-decoration: none;
