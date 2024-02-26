@@ -41,11 +41,10 @@ nav {
     text-align: left;
     padding: 10px;
     font-size: 0.8em;
-    min-height: 1em;
 }
 
 nav > a {
-    padding: 3px;
+    padding: 2px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     text-decoration: none;
