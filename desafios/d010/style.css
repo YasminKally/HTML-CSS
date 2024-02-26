@@ -40,6 +40,8 @@ nav {
     background-color: #1A5C38;
     text-align: left;
     padding: 10px;
+    font-size: 0.8em;
+    min-height: 1em;
 }
 
 nav > a {
