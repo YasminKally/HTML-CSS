@@ -3,4 +3,5 @@
 <ul>
     <li><a href="https://yasminkally.github.io/html-css/desafios/d010/android.html">Android</a></li>
     <li><a href="https://yasminkally.github.io/html-css/desafios/d012/index.html">Cordel Moderno</a></li>
+    <li><a href="https://yasminkally.github.io/html-css/desafios/d013/index.html">Redes Sociais</a></li>
 </ul>
